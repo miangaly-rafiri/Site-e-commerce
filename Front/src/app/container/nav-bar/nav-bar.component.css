@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #d2b48c; /* Marron clair */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* Blanc */
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #8b4513; /* Marron foncé au survol */
+}
+
+.right {
+    margin-left: auto;
+}

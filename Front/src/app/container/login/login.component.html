@@ -1,0 +1,20 @@
+
+<div class="container">
+  <div class="form-container">
+    <h2>Login</h2>
+    <div class="input-group">
+      <label for="username">Username</label>
+      <input [(ngModel)]="username" type="text" id="username" name="username" autocomplete="username" />
+    </div>
+    <div class="input-group">
+      <label for="password">Password:</label>
+      <input [(ngModel)]="password" type="password" id="password" name="password" autocomplete="current-password" />
+    </div>
+    <div class="input-group">
+      <button type="submit" (click)="login()">Login</button>
+    </div>
+    <div class="text">
+      <p>Want to register ? <a href="register">register</a></p>
+    </div>
+  </div>
+</div>
